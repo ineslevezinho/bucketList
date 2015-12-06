@@ -1,0 +1,98 @@
+body {
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    text-align: center;
+    background: #eee;
+    font-size: 16px;
+}
+
+h1 {
+    color: #5a6772;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.addItem {
+    overflow: hidden;
+    position: relative;
+}
+
+.addItem-container {
+    margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+    
+}
+
+.addBucket .add {
+    float: left;
+    margin-left: 21px;
+    padding: 6px;
+    color: #009933;
+    font-weight: bold;
+}
+
+.addInput {
+    float: left;
+}
+
+.actions .add{
+}
+
+.listContainer {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-top: 20px solid #5a6772;
+    margin: 50px auto 0;
+    min-width: 500px;
+    text-align: center;
+    width: 90%;
+}
+
+.listContainer ul {
+    padding-left: 0;
+}
+
+.listContainer ul li {
+    border-bottom: 2px solid #fff;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    padding: 17px 0 18px 17px;
+}
+
+.actions {
+    float: right;
+    margin-right: 20px;
+}
+
+.actions a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.actions .delete {
+    color: #ed5a5a;
+}
+
+.actions .delete:hover {
+    text-decoration: underline;
+}
+
+.actions .edit {
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.actions .edit:hover {
+    background: #ccc;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+}
+
